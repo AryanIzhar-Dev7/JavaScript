@@ -40,3 +40,31 @@ password1EL.value=pass1;
 password2EL.value=pass2;
 
 }
+
+//Copy on click
+function copy1() {
+    // const inputElement = document.getElementById(elementId);
+    password1EL.select();
+    password1EL.setSelectionRange(0, 99999); // For mobile devices
+
+    navigator.clipboard.writeText(password1EL.value).then(() => {
+        alert('Password copied to clipboard');
+    }).catch(err => {
+        console.error('Failed to copy: ', err);
+    });
+}
+
+
+function copy2() {
+    // const inputElement = document.getElementById(elementId);
+    password2EL.select();
+    password2EL.setSelectionRange(0, 99999); // For mobile devices
+
+    navigator.clipboard.writeText(password2EL.value).then(() => {
+        alert('Password copied to clipboard');
+    }).catch(err => {
+        console.error('Failed to copy: ', err);
+    });
+}
+
+
