@@ -1,7 +1,8 @@
 body{
     
     background-color: black;
-    
+    margin: 10% 20% 0 35%;
+
     align-content: center;
     font-size:larger;
     
@@ -71,5 +72,14 @@ h5{
     margin-left: 6%;
 }
 
+#num{
+    height: 27px;
+    width: 45px;
+    border-radius: 10px solid rgba(48, 49, 145, 0.895);
+    border: none;
+    font-size: large;
+    background-color: white;
+    ;
+}
 
 
