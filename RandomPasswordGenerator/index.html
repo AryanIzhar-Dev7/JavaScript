@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <script src="index.js" defer></script>
-    <title>Document</title>
+    <title>Password Generator</title>
 </head>
 <body>
     <div>
@@ -13,14 +13,13 @@
         <h1>random password</h1>
         <h5>Never use an insecure password again.</h5>
 
-        <button class="generate"  onclick="generate()">Generate passwords</button>
+        <button class="generate" onclick="generate()">Generate passwords</button> 
+        <input type="number" id="num" min="8" max="15" placeholder="Password length 8-15">
+        <h5>password length 8-15</h5>
+        <hr class="line">
 
-        <hr class="line"></hr>
-
-        <input type="text"  id="password1"readonly onclick="copy1()"> </input>
-        <input type="text" id="password2" readonly onclick="copy2()" > </input>
-
+        <input type="text" id="password1" readonly onclick="copy1()">
+        <input type="text" id="password2" readonly onclick="copy2()">
     </div>
-    
 </body>
 </html>
