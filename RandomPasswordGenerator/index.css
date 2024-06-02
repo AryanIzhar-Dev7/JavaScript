@@ -72,5 +72,14 @@ h5{
     margin-left: 6%;
 }
 
+#num{
+    height: 27px;
+    width: 45px;
+    border-radius: 10px solid rgba(48, 49, 145, 0.895);
+    border: none;
+    font-size: large;
+    background-color: white;
+    ;
+}
 
 
