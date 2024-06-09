@@ -1,0 +1,109 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+align-items: center;
+align-content: center;
+margin: 0 0 0 0;
+
+
+}
+
+.upperdiv{
+    margin: 0 0 -19.9px 0;
+    width: 550px;
+    height: 285px;
+    background: #6943FF;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    
+}
+
+.uph1{
+  
+    font-weight: 800;
+    font: size 28px; 
+    align-items: center;
+}
+
+#inputfield{
+    height: 83px;
+    width: 117px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    margin: 5px 0 6px 0;
+    color: #FFFFFF;
+    /* border: none; */
+    background: #6943FF;
+    
+}
+#convertbtn{
+    width: 117px;
+    height: 42px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3D3D3D;
+    font: bolder;
+    /* border: none; */
+}
+
+
+/* *******************Lower DIV*******************8 */
+
+.lowerdiv{
+    margin: 0 0 0 0;
+    width: 550px;
+    height: 444px;
+    background: #1F2937;
+    align-content: center;
+    text-align: center;
+
+}
+
+.firstdiv, .seconddiv, .thirddiv{
+  
+
+    width: 500px;
+    height: 108.57px;
+    border-radius: 4.68px;
+    border:1px solid #FFFFFF;
+    background: #273549;
+    margin-left: 20px;
+    margin-top: 15px;
+    
+
+}
+
+/* the headeer of all lower divs */
+.firsth2, .secondh2, .thirdh2{
+    width: 346px;
+    height: 59px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    color: #CCC1FF;
+    padding-left: 70px;
+    margin-bottom: -37px;
+    
+ 
+}
+
+    /* paragraph of lower divs that will show the output/ */
+#lengthpara, #masspara,#volumepara{
+
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+color:#CCC1FF;
+
+}
